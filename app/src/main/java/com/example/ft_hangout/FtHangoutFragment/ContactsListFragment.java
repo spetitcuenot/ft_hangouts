@@ -68,7 +68,7 @@ public class ContactsListFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.contact_list_fragment, container, false);
-        Utils.onActivityCreateSetTheme(getActivity());
+        //Utils.onActivityCreateSetTheme(getActivity());
         recyclerView = view.findViewById(R.id.recycler_view);
         addContactButton = view.findViewById(R.id.button_add_contact);
 

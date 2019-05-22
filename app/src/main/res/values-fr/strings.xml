@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_delete_all">Supprimer tout</string>
+    <string name="action_exit">Quitter</string>
+    <string name="action_exit_details">Quitter</string>
+    <string name="action_language">Langage</string>
+    <string name="action_save">Sauvegarder</string>
+    <string name="action_theme">Thème</string>
+    <string name="action_update">Mise à jour</string>
+    <string name="action_theme_1">Thème bleu</string>
+    <string name="action_theme_2">Thème fruité</string>
+    <string name="phone">Téléphone</string>
+</resources>

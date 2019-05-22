@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+   </declare-styleable>
+    <attr name="color_Primary" format="reference" />
+   <attr name="color_Primary_Dark" format="reference" />
+   <!-- <attr name="colorPrimary1" format="reference" />
+   <attr name="colorPrimary_Dark1" format="reference" />-->
+   <attr name="buttonAdd" format="reference" />
+   <attr name="buttonCheckSms" format="reference" />
+
+
+</resources>

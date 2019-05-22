@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CustomActionBarThemeBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@style/color_Primary</item>
+        <item name="colorPrimaryDark">@style/color_Primary_Dark</item>
+        <item name="buttonAdd">@style/button_Add_Blue</item>
+        <item name="buttonCheckSms">@style/button_Add_Blue</item>
+    </style>
+
+    <style name="Theme.CustomActionBarThemeOrange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@style/color_Primary1</item>
+        <item name="colorPrimaryDark">@style/color_Primary_Dark1</item>
+        <item name="buttonAdd">@style/button_Add_Orange</item>
+        <item name="buttonCheckSms">@style/button_Add_Orange</item>
+    </style>
+
+</resources>

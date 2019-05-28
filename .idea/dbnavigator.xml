@@ -23,11 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="a69bbc4c-9b72-4a5b-b851-39a1903d2544">
-        <schema name="main" object-types="view, table" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="a69bbc4c-9b72-4a5b-b851-39a1903d2544">
@@ -81,7 +77,7 @@
           <port value="" />
           <database value="" />
           <files>
-            <file path="$USER_HOME$/Documents/Contactsbase.db" schema="main" />
+            <file path="$PROJECT_DIR$/../../../Contactsbase.db" schema="main" />
           </files>
           <os-authentication value="false" />
           <empty-authentication value="false" />

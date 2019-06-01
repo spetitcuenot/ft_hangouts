@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.CustomActionBarThemeBlue" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@style/color_Primary</item>
-        <item name="colorPrimaryDark">@style/color_Primary_Dark</item>
-        <item name="buttonAdd">@style/button_Add_Blue</item>
-        <item name="buttonCheckSms">@style/button_Add_Blue</item>
+    <style name="CustomSpThemeBlue">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="buttonAdd">@color/colorButtonNormal</item>
+        <item name="buttonCheckSms">@color/colorButtonNormal</item>
     </style>
 
-    <style name="Theme.CustomActionBarThemeOrange" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@style/color_Primary1</item>
-        <item name="colorPrimaryDark">@style/color_Primary_Dark1</item>
-        <item name="buttonAdd">@style/button_Add_Orange</item>
-        <item name="buttonCheckSms">@style/button_Add_Orange</item>
+    <style name="CustomSpThemeOrange">
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+        <item name="buttonAdd">@color/colorButtonNormal1</item>
+        <item name="buttonCheckSms">@color/colorButtonNormal1</item>
     </style>
 
 </resources>

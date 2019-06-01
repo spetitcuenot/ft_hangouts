@@ -56,7 +56,6 @@ public class ContactsListFragment extends Fragment {
     private List<Contacts> _contacts;
     private ImageButton imgButton;
     private FloatingActionButton addContactButton;
-    private int _position;
 
     public ContactsListFragment() {
         setHasOptionsMenu(true);
@@ -66,13 +65,9 @@ public class ContactsListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         View view = inflater.inflate(R.layout.contact_list_fragment, container, false);
-        //Utils.onActivityCreateSetTheme(getActivity());
         recyclerView = view.findViewById(R.id.recycler_view);
         addContactButton = view.findViewById(R.id.button_add_contact);
-
-
         addContactButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -96,8 +91,7 @@ public class ContactsListFragment extends Fragment {
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
-
+        Utils.onActivityCreateSetTheme(this.getActivity());
         recyclerView.setLayoutManager(new CustomLayoutManager(this.getActivity()));
         recyclerView.setHasFixedSize(true);
         adapter = new ContactsAdapter(this.getContext(), _contacts, new OnContactListener() {
@@ -125,37 +119,26 @@ public class ContactsListFragment extends Fragment {
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         inflater.inflate(R.menu.menu, menu);
         super.onCreateOptionsMenu(menu, inflater);
-        //Utils.onActivityCreateSetTheme(getActivity());
-
-
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
         switch (item.getItemId()) {
 
             case R.id.action_theme:
-
-
                 Toast.makeText(this.getContext(), " Test Thème", Toast.LENGTH_LONG).show();
                 return true;
 
             case R.id.theme_1:
-                /*Utils.CUSTOM_ACTION_BAR_THEME =
-                Utils.onActivityCreateSetTheme();*/
-                _position = 0;
                 Utils.changeToTheme(getActivity(), 0);
-                ThemeApplication.currentPosition = _position;
-                //setTheme(R.style.CustomActionBarThemeBlue);
                 Toast.makeText(this.getContext(), "Thème 1", Toast.LENGTH_LONG).show();
                 return true;
 
             case R.id.theme_2:
                 Utils.changeToTheme(getActivity(), 1);
-                _position = 1;
                 //setTheme(R.style.CustomActionBarThemeOrange);
                 //ThemeUtil.changeTheme(getContext());
-                ThemeApplication.currentPosition = _position;
                 Toast.makeText(this.getContext(), "Thème 2", Toast.LENGTH_LONG).show();
                 return true;
 

@@ -15,7 +15,7 @@
         android:label="Contacts"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/ThemeOrange">
+        android:theme="@style/CustomActionBarThemeOrange.">
 
         <activity android:name=".MainActivity">
             <intent-filter>

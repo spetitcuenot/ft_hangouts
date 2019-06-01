@@ -2,20 +2,23 @@
 
     <!-- Base application theme. -->
 
-   <!-- <style name="CustomActionBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+   <style name="CustomActionBarThemeBlue." parent="Theme.AppCompat.Light.DarkActionBar">
 
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorBackgroundFloating">@color/colorAccent</item>
-    </style> -->
+    </style>
 
-    <style name="ThemeOrange" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="CustomActionBarThemeOrange." parent="Theme.AppCompat.Light.DarkActionBar">
 
         <item name="colorPrimary">@color/colorPrimary1</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
         <item name="colorAccent">@color/colorAccent1</item>
         <item name="colorBackgroundFloating">@color/colorAccent1</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight." parent="Theme.AppCompat.DayNight.DarkActionBar" >
+
     </style>
 
 

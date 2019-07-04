@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color theme default -->
+
+    <color name="colorPrimary">#00ACC1</color>
+    <color name="colorPrimaryDark">#007c91</color>
+    <color name="colorAccent">#5ddef4</color>
+    <color name="colorButtonNormal">#00acc1</color>
+    <color name="colorbuttonclose">#00acc1</color>
+
+    <!-- Color theme 1 -->
+
+    <color name="colorPrimary1">#ffc107</color>
+    <color name="colorPrimaryDark1">#c79100</color>
+    <color name="colorAccent1">#fff350</color>
+    <color name="colorButtonNormal1">#ffc107</color>
+    <color name="colorbuttonclose1">#EED922</color>
+
+    <!-- Color theme 2 -->
+    <color name="colorPrimary2">#05DAF5</color>
+    <color name="colorPrimaryDark2">#9693EC</color>
+    <color name="colorAccent2">#6cffff</color>
+    <color name="colorbuttonAdd2">#05DAF5</color>
+    <color name="colorbuttonclose2">#9693EC</color>
+
+    <color name="colorGrey">#DAD7D7</color>
+
+
+</resources>

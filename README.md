@@ -1,2 +1,2 @@
 # ft_hangout
-Application gestion contact java android architecture component View Model
+Mobile contact management application in java for android using a "component View Model" architecture, created with Hélène Chrétien
